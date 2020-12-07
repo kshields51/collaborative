@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    color: inherit
+}
+
+
+
+/*******************
+COLORS
+*******************/
+
+.bk-blue {
+    background-color: #003f7f;
+}
+
+.bk-white {
+    background-color: white;
+}
+
+.c-white {
+    color: white;
+}
+
+/*******************
+Utilities
+*******************/
+
+.flex {
+    display: flex;
+}
+
+/*******************
+HEADER
+*******************/
+
+.header__logo {
+    background: url('logo-large.png');
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+.header__img-wrapper {
+    height: 50px;
+    width: 200px;
+}
+
+.header {
+    justify-content: space-between;
+    max-width: 95%;
+}
+

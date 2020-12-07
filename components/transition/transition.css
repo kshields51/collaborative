@@ -1,0 +1,50 @@
+/*******************
+FONTS
+*******************/
+
+@font-face {
+    font-family: "rb";
+    src: url(Reglo-bold.otf) format("opentype");
+}
+
+
+/*******************
+TRANSITION COLORSET
+*******************/
+.trans-green {
+    background-color:  #86a55c;
+}
+
+.trans-lilac {
+    background-color: #5575ac;
+}
+
+.trans-lilac-light {
+    background-color: #8195c2;
+}
+
+.trans-blue-dark {
+    background-color: #004b8d;
+}
+    
+    
+    
+
+.transition {
+    font-size: 32px;
+    font-family: rb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    overflow: hidden;
+}
+
+.transition__border {
+    border-top: 10px solid white;
+    border-bottom: 10px solid white;
+}
+    
+
+
+

@@ -1,0 +1,45 @@
+a {
+    text-decoration: none;
+    list-style: none;
+    color: inherit;
+    font-family: arial;
+}
+
+
+/*******************
+BUTTON COLORS
+*******************/
+
+.bk-color-primary {
+    background-color: #0c2340;
+}
+
+
+
+/*******************
+BUTTON
+*******************/
+
+.button {
+    display: block;
+    border: 2px solid;
+    border-radius: 2px;
+    padding: 12px 60px;
+    cursor: pointer;
+}
+
+.button-1 {
+    background-color: white;
+    border-color: #333333;
+    margin-bottom: 20px;
+}
+
+.button-2 {
+    transition: 250ms background ease;
+    color: white;
+}
+
+.button-2:hover {
+    color: black;
+    background-color: white;
+}

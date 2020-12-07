@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    color: inherit
+}
+
+
+
+/*******************
+COLORS
+*******************/
+
+.bk-blue {
+    background-color: #003f7f;
+}
+
+.bk-white {
+    background-color: white;
+}
+
+.c-white {
+    color: white;
+}
+
+.bk-gray {
+    background-color: #E4E1CF;
+    
+}
+
+/*******************
+FONT SIZING
+*******************/
+
+.sz-t {
+    font-size: 72px;
+}
+
+.sz-b {
+    font-size: 24px;
+}
+
+.sz-d {
+    font-size: 28px;
+}
+
+
+/*******************
+FONTS
+*******************/
+
+@font-face {
+    font-family: "rb";
+    src: url(Reglo-bold.otf) format("opentype");
+}
+
+/*******************
+Utilities
+*******************/
+
+.flex {
+    display: flex;
+}
+
+/*******************
+FONT SPACING
+*******************/
+.t-d {
+    padding-bottom: 32px;
+}
+
+.d-b {
+    padding-bottom: 32px;
+}
+
+/*******************
+HERO
+*******************/
+
+.hero {
+    font-family: 'rb';
+    background: url('despair.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+}
+
+/*******************
+BUTTON COLORS
+*******************/
+
+.bk-color-primary {
+    background-color: #0c2340;
+}
+
+
+
+/*******************
+BUTTON
+*******************/
+
+.button {
+    display: inline-block;
+    border: none;
+    border-radius: 2px;
+    padding: 12px 60px;
+    cursor: pointer;
+}
+
+.button-1 {
+    background-color: white;
+    border-color: #333333;
+    margin-bottom: 20px;
+}
+
+.button-2 {
+    transition: 250ms background ease;
+    color: white;
+}
+
+.button-2:hover {
+    color: black;
+    background-color: white;
+}
